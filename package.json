@@ -1,0 +1,36 @@
+{
+  "name": "restapi-upoload-csv-file",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon src/app/app.ts",
+    "build": "tsc",
+    "start": "node -r ts-node/register/transpile-only -r tsconfig-paths/register ./dist/app/app.js",
+    "test": "jest",
+    "test:unit": "jest unit",
+    "test:int": "jest int",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": "https://github.com/YasirHasn9/restapi-upoload-csv-file.git",
+  "author": "Yasir <yhassan@oxefit.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/jest": "^29.0.3",
+    "@types/node": "^18.7.18",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^29.0.3",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "ts-jest": "^29.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
